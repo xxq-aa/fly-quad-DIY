@@ -20,6 +20,15 @@
 <img width="4096" height="3072" alt="IMG_20260907_232924" src="https://github.com/user-attachments/assets/64603421-2210-4618-bcca-5c7366e13772" />
 
 采用模块和mcu集成到板子上面，初版因为Pmos开关电源没有把通过mos管的电机电流分出去，不经过mos管，导致开关电源失效，新版把电机电流不通过mos管，这样mcu断电，mos管也不会开启导致电机旋转。
+立创原理图
+<img width="416" height="316" alt="屏幕截图 2026-10-22 205039" src="https://github.com/user-attachments/assets/be556560-c8f7-47c6-ae7f-1e62d204c2de" />
+<img width="528" height="226" alt="屏幕截图 2026-10-22 205143" src="https://github.com/user-attachments/assets/75ed8abd-d9ed-42f5-a4e0-d12185ffdee5" />
+<img width="821" height="426" alt="屏幕截图 2026-10-22 205138" src="https://github.com/user-attachments/assets/a50de157-cf30-4ebd-aefc-f5ea0addaad3" />
+下面是对应遥控PCB和实物图，也是采用摇杆电位器PS2或者Ps5ADC读取电压来映射到油门和姿态来控制
+<img width="4096" height="3072" alt="IMG_20261022_205317" src="https://github.com/user-attachments/assets/2e33f681-f2fd-4528-8838-d74eb6f58b1d" />
+<img width="611" height="482" alt="屏幕截图 2026-10-22 205712" src="https://github.com/user-attachments/assets/d43f5c4f-b352-4517-9b29-f357e47cd154" />
+<img width="528" height="226" alt="屏幕截图 2026-10-22 205143" src="https://github.com/user-attachments/assets/fe68dc2b-5269-4c9e-8a5d-5ce7c2af14d3" />
+<img width="821" height="426" alt="屏幕截图 2026-10-22 205138" src="https://github.com/user-attachments/assets/ccb2e93d-733b-4745-93cb-7e67962b729f" />
 
 
 这是实际飞行效果
