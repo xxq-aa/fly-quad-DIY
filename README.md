@@ -17,6 +17,8 @@
 用2个150mm轻木条组装机身，用热熔胶固定机身
 <img width="1844" height="4096" alt="IMG_20261021_175309" src="https://github.com/user-attachments/assets/5a7f0c26-4288-4fed-b79f-e8e378c8f82c" />
 <img width="4096" height="3072" alt="IMG_20261017_002435" src="https://github.com/user-attachments/assets/8b1baa6c-25c6-4072-9ba2-3654d897f168" />
+<img width="4096" height="3072" alt="IMG_20260907_232924" src="https://github.com/user-attachments/assets/64603421-2210-4618-bcca-5c7366e13772" />
+
 采用模块和mcu集成到板子上面，初版因为Pmos开关电源没有把通过mos管的电机电流分出去，不经过mos管，导致开关电源失效，新版把电机电流不通过mos管，这样mcu断电，mos管也不会开启导致电机旋转。
 
 
