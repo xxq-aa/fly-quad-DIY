@@ -12,5 +12,6 @@ typedef struct {
     int16_t zy;
 } Joystick_TypeDef;
 extern Joystick_TypeDef js;
+extern Joystick_TypeDef js1;
 extern uint16_t adc_value[4];
 #endif

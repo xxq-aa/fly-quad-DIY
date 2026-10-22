@@ -30,14 +30,42 @@ uint8_t Key_GetNum(void)
 		HAL_Delay(20);
 		while (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_7) == GPIO_PIN_RESET);
 		HAL_Delay(20);
+		KeyNum = 1;
+	}
+		if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_5) == GPIO_PIN_RESET)
+	{
+		HAL_Delay(20);
+		while (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_5) == GPIO_PIN_RESET);
+		HAL_Delay(20);
+		KeyNum = 2;
+	}
+		if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_3) == GPIO_PIN_RESET)
+	{
+		HAL_Delay(20);
+		while (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_3) == GPIO_PIN_RESET);
+		HAL_Delay(20);
 		KeyNum = 3;
+	}
+		if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6) == GPIO_PIN_RESET)
+	{
+		HAL_Delay(20);
+		while (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6) == GPIO_PIN_RESET);
+		HAL_Delay(20);
+		KeyNum = 4;
 	}
 		if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_4) == GPIO_PIN_RESET)
 	{
 		HAL_Delay(20);
 		while (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_4) == GPIO_PIN_RESET);
 		HAL_Delay(20);
-		KeyNum = 4;
+		KeyNum = 5;
+	}
+		if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_15) == GPIO_PIN_RESET)
+	{
+		HAL_Delay(20);
+		while (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_15) == GPIO_PIN_RESET);
+		HAL_Delay(20);
+		KeyNum = 6;
 	}
 	return KeyNum;
 }
